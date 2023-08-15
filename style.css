@@ -7,7 +7,7 @@
 body {
     background-color: #EDF2FB;
     color: #000;
-    font-family: 'Muli', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -44,6 +44,7 @@ h2 {
     padding: 12px 10px;
     height: 50px;
     width: 100%;
+    border-radius: 25px;
 }
 
 .result-container #result {
@@ -73,6 +74,7 @@ h2 {
     font-size: 29px;
     padding: 8px 12px;
     cursor: pointer;
+    border-radius: 25px;
 }
 
 .btn-large {
